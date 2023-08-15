@@ -90,7 +90,8 @@ export default function App() {
   return (
     <div className=" flex flex-col w-full py-4 items-center justify-center">
       <div>
-        <h1 className="md:text-4xl text-3xl font-bold text-white mt-20">LISTA DE TAREFAS</h1>
+        <h1 className="md:text-4xl text-center text-3xl font-bold text-white mt-20">LISTA DE TAREFAS 
+        LEANDRO HENRIQUE </h1>
       </div>
       <div>
         <input className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5 mt-5"
