@@ -90,7 +90,7 @@ export default function App() {
   return (
     <div className=" flex flex-col w-full py-4 items-center justify-center">
       <div>
-        <h1 className="md:text-4xl text-center text-3xl font-bold text-white mt-20">LISTA DE TAREFAS 
+        <h1 className="md:text-4xl text-center text-3xl font-bold text-white mt-20">LISTA DE TAREFA
         LEANDRO HENRIQUE </h1>
       </div>
       <div>
