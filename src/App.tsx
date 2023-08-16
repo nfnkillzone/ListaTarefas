@@ -91,7 +91,7 @@ export default function App() {
     <div className=" flex flex-col w-full py-4 items-center justify-center">
       <div>
         <h1 className="md:text-4xl text-center text-3xl font-bold text-white mt-20">LISTA DE TAREFA
-        LEANDRO HENRIQUE </h1>
+          DEV LEANDRO </h1>
       </div>
       <div>
         <input className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5 mt-5"
@@ -114,21 +114,21 @@ export default function App() {
 
       {tasks.map((item) => (
 
-        <section className=" flex justify-around w-11/12">
+        <section className=" flex justify-center w-11/12">
           <div className=" w-52">
             <span className=" text-white">{item}</span>
           </div>
           <div className=" flex gap-3 mb-5 ">
-          <div>
-            <button className="bg-green-500 hover:bg-green-700 text-white
+            <div>
+              <button className="bg-green-500 hover:bg-green-700 text-white
              font-bold text-sm py-2 px-4 border border-green-700 rounded"
-              onClick={() => handleEdit(item)}>Editar</button>
-          </div>
-          <div>
-            <button className="bg-green-500 hover:bg-green-700
+                onClick={() => handleEdit(item)}>Editar</button>
+            </div>
+            <div>
+              <button className="bg-green-500 hover:bg-green-700
              text-white font-bold text-sm py-2 px-4 border border-green-700 rounded"
-              onClick={() => handleDelete(item)}>Excluir</button>
-          </div>
+                onClick={() => handleDelete(item)}>Excluir</button>
+            </div>
           </div>
         </section>
 
